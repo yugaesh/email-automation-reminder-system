@@ -1,0 +1,8 @@
+Hello {name},
+
+This is your automated reminder email.
+
+Please complete your pending task or check your schedule.
+
+Regards,
+Automation System
