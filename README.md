@@ -1,187 +1,105 @@
-EMAIL AUTOMATION & REMINDER SYSTEM (PYTHON + STREAMLIT)
+# 📧 Email Automation & Reminder System
 
-========================================================
+A Python + Streamlit based Email Automation System that sends personalized emails using CSV data, templates, and supports DRY RUN and LIVE modes.
 
-PROJECT OVERVIEW
-========================================================
-The Email Automation & Reminder System is a Python-based automation project that simulates real-world email workflows used in companies.
+---
 
-It automates repetitive tasks like sending reminders, notifications, and follow-ups using CSV files, email templates, and a Streamlit dashboard.
+## 🚀 Project Overview
 
-This project demonstrates backend automation, UI integration, and workflow design.
+This project automates repetitive email tasks like:
+- Reminders
+- Notifications
+- Follow-ups
 
---------------------------------------------------------
+It simulates real-world business automation used in HR, sales, and operations.
 
-PROBLEM STATEMENT
---------------------------------------------------------
-Organizations face problems like:
-- Manual email sending
-- Missed reminders and follow-ups
-- Time-consuming repetitive communication
-- No tracking system for emails
+---
 
-This project solves these problems using automation.
+## 🎯 Problem Statement
 
---------------------------------------------------------
+Manual email sending leads to:
+- Time waste
+- Human errors
+- Missed reminders
 
-KEY FEATURES
---------------------------------------------------------
-- Automated email sending using SMTP
-- CSV-based contact management
-- Email template personalization
+This system automates the entire workflow.
+
+---
+
+## 💡 Features
+
+- CSV-based contact system
+- Personalized email templates
 - DRY RUN mode (safe testing)
 - LIVE mode (real email sending)
-- Streamlit web dashboard
-- Logging system for tracking
-- Output report generation
+- Streamlit UI dashboard
+- Logging system
+- Output tracking
 
---------------------------------------------------------
+---
 
-TECH STACK
---------------------------------------------------------
+## 🛠 Tech Stack
+
 - Python
-- Pandas
 - Streamlit
+- Pandas
 - SMTP (smtplib)
-- email.message
 - CSV files
-- Logging module
 
---------------------------------------------------------
+---
 
-PROJECT STRUCTURE
---------------------------------------------------------
+## 📁 Project Structure
+
 Email-Automation-Reminder-System/
-│
-├── app.py # Streamlit UI dashboard
-├── main.py # Backend automation logic
-│
+├── app.py
+├── main.py
 ├── data/
-│ └── contacts.csv # Contact database
-│
+│   └── contacts.csv
 ├── templates/
-│ └── email_template.txt # Email template
-│
+│   └── email_template.txt
 ├── logs/
-│ └── system.log # Execution logs
-│
 ├── outputs/
-│ └── sent_emails.csv # Email status report
-│
-├── requirements.txt # Dependencies
+├── requirements.txt
 └── README.md
 
---------------------------------------------------------
+---
 
-INSTALLATION STEPS
---------------------------------------------------------
+## ⚙️ How to Run
 
-1. Clone the repository:
-git clone https://github.com/your-username/email-automation-reminder-system.git
-
-2. Go to project folder:
-cd email-automation-reminder-system
-
-3. Install dependencies:
+1. Install dependencies:
 pip install -r requirements.txt
 
---------------------------------------------------------
-
-HOW TO RUN PROJECT
---------------------------------------------------------
-
-1. Run Streamlit Dashboard:
+2. Run Streamlit app:
 streamlit run app.py
 
-2. (Optional) Run backend script:
-python main.py
+---
 
---------------------------------------------------------
+## 🧪 CSV Format
 
-MODES
---------------------------------------------------------
+name,email
+John Doe,john@example.com
+Sara Smith,sara@example.com
 
-DRY RUN MODE:
-- No real emails sent
-- Used for testing and debugging
-- Safe mode
+---
 
-LIVE MODE:
-- Sends real emails using Gmail SMTP
-- Requires App Password
-- Use carefully
+## 🔐 Safety
 
---------------------------------------------------------
+- Use DRY RUN mode for testing
+- LIVE mode requires Gmail App Password
+- Never upload credentials to GitHub
 
-WORKFLOW
---------------------------------------------------------
-CSV Contacts → Streamlit UI → Email Template →
-Automation Engine → SMTP Sender → Logs & Reports
+---
 
---------------------------------------------------------
+## 📈 Learning Outcomes
 
-SCREENSHOTS TO ADD (IMPORTANT)
---------------------------------------------------------
-Take screenshots of:
-- Streamlit dashboard UI
-- CSV upload screen
-- Email output results
-- Terminal execution output
-- GitHub repository page
-
---------------------------------------------------------
-
-LEARNING OUTCOMES
---------------------------------------------------------
-- Email automation using Python
-- SMTP email handling
-- CSV file processing
-- Streamlit UI development
-- Logging and debugging
+- Python automation
+- Email integration
+- Streamlit UI
+- File handling
 - Real-world workflow design
 
---------------------------------------------------------
+---
 
-REAL WORLD USE CASES
---------------------------------------------------------
-- HR reminder systems
-- Sales follow-up systems
-- Payment reminder systems
-- Educational notifications
-- Marketing automation systems
+## 👨‍💻 Author
 
---------------------------------------------------------
-
-SECURITY NOTE
---------------------------------------------------------
-- Never upload real passwords to GitHub
-- Use Gmail App Password instead
-- Keep DRY RUN mode enabled for testing
-
---------------------------------------------------------
-
-FUTURE IMPROVEMENTS
---------------------------------------------------------
-- Email scheduling system
-- Database integration (SQLite/MySQL)
-- Authentication system
-- Analytics dashboard
-- Email tracking (open/click tracking)
-
---------------------------------------------------------
-
-AUTHOR
---------------------------------------------------------
-Yugaesh Kumaran
-
---------------------------------------------------------
-
-SUMMARY
---------------------------------------------------------
-This project is a complete Email Automation System with:
-- Backend automation
-- UI dashboard
-- Safe testing mode
-- Real-world workflow simulation
-
-========================================================
+Yugaesh
